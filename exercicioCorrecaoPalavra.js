@@ -6,11 +6,9 @@
 
 
 function corrigirPalavra(str) {
-  const a = str.split('').toString()
   let b = ''
-  
-  for(let i=0; i<a.length; i++) {
-    var c = String.fromCharCode(a.charCodeAt(i)+1);
+  for(let i=0; i<str.length; i++) {
+    var c = String.fromCharCode(str.charCodeAt(i)+1);
     b = b +c;
   }
   return b.match(/\w/g).join('')
