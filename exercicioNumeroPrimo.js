@@ -3,7 +3,6 @@
 // Caso contrário, retorna o próximo número primo mais alto
 
 function numeroPrimo(num) {
-    
     let temp = 0;
     while (temp !== 1) {
         temp = 0;
@@ -14,8 +13,6 @@ function numeroPrimo(num) {
         }   
         if(temp > 1) num ++;
     }
-
     return num;
-    
 }
 console.log(numeroPrimo(38))
