@@ -2,6 +2,6 @@
 // It should return an array with the numbers sorted in descending order
 
 function ordemDecrescente(arrNum) {
-    return arrNum.sort().reverse()
+    return arrNum.sort()
   }
-  console.log(ordemDecrescente([4,1,3,2]))
+  console.log(ordemDecrescente(['b', 'c', 'd', 'a']))
